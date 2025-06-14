@@ -14,7 +14,7 @@ import struct # For parsing binary data (PNG/JPEG headers)
 
 # --- Helper Function: Run External Commands (Keep as is) ---
 def run_command(command_list, input_data=None, suppress_errors=False):
-    # ... (same as before) ...
+    
     try:
         process = subprocess.run(
             command_list,
